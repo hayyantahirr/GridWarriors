@@ -1,0 +1,20 @@
+/* default css  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: "PT Sans", sans-serif;
+    text-decoration: none;
+    list-style: none;
+  
+    /* border: 1px solid red; */
+  }
+  
+  
+  html {
+    font-size: 62.5%;
+  }
+  img{
+    border-radius: 3px;
+  }
