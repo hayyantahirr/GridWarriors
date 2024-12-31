@@ -118,8 +118,9 @@ img {
   align-items: center;
 }
 .gif {
-  width: 60%;
-  display: none;
+  width: 0;
+  /* display: none; */
+  transition: width 1s ease-in-out;
 }
 .title {
   text-align: center;
@@ -149,7 +150,7 @@ img {
   .game-info {
     width: 100%;
   }
-  .boxtext{
+  .boxtext {
     font-size: 5rem;
   }
 }
