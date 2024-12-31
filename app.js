@@ -16,6 +16,7 @@ let currentTurn = "X";
 // Variable to check if the game is over
 let isgameover = false;
 
+music.play();
 // Function to change the turn to the next player
 const changeTurn = () => {
   // If the current turn is "X", change it to "O", otherwise change it to "X"
