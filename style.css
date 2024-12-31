@@ -64,7 +64,7 @@ img {
   justify-content: center;
   align-items: center;
   font-size: 8rem;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #000000;
 }
 .box {
@@ -138,4 +138,18 @@ img {
 }
 .bb-0 {
   border-bottom: 0;
+}
+
+/* media curies for the project  */
+
+@media (max-width: 768px) {
+  .game {
+    flex-direction: column;
+  }
+  .game-info {
+    width: 100%;
+  }
+  .boxtext{
+    font-size: 5rem;
+  }
 }
